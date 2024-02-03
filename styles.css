@@ -25,7 +25,15 @@ body {
   color: var(--clr-fg);
   background-color: var(--clr-bg);
   transition: background-color 1s, color 1s;
+  scrollbar-width: thin;
+  -ms-overflow-style: none;
 }
+
+body::-webkit-scrollbar {
+  display: none; 
+}
+
+
 
 .light {
   --clr-bg: #fcfcfc;
