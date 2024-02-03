@@ -24,6 +24,7 @@ body {
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
+  transition: background-color 1s, color 1s;
 }
 
 .light {
