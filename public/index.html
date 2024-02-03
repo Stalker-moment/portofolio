@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./img/TS.png" type="image/png">
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Tier Sinyo</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://tierkun.site/" class="link"
+          >TS.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <div class="image-container w-full px-4 lg:w-1/2">
+          <img src="./img/myprofile_square.jpg" class="image object-cover object-center h-auto w-full mx-auto" alt="">
+        </div>        
+        <h1>Hi, I am <span class="about__name">Tier Sinyo.</span></h1>
+        <h2 class="about__role">A Mechatronics Student.</h2>
+        <p class="about__desc">
+          Nama saya Muhammad Tier Sinyo Cahyo Utomo Suharjo,
+          Cukup panjang bukan? jadi panggil saja Tier. Saya adalah seorang
+          Siswa SMK SMTI Yogyakarta (Sekolah Menengah Kejuruan Teknologi Industri Yogyakarta).
+          Saya sedang belajar dibidang Mechatronics. Saya juga seorang IoT Developer yang sedang belajar di bidang IoT. 
+
+        </p>
+
+        <div class="about__contact center">
+          <!-- <a href="https://example.com">
+            <span class="btn btn--outline">Resume</span>
+          </a> -->
+
+          <a
+            href="https://github.com/Stalker-moment"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/tiersinyo"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Aqualifier System</h3>
+            <p class="project__description">
+              Aqualifier System adalah sebuah sistem yang berfungsi sebagai
+              kontrol taman, meliputi penyiraman, pencahayaan,
+              monitoring suhu dan ph. Sistem ini menggunakan teknologi IoT
+              yang mengambil sumber listrik dari panel surya.
+              sistem ini dapat dimonitoring serta dikontrol melalui website.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Arduino</li>
+              <li class="project__stack-item">NodeJs</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">VueJs</li>
+              <li class="project__stack-item">Vuetify</li>
+            </ul>
+
+            <a
+              href="https://github.com/fphaikal/aqualifier"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+
+            <a
+              href="https://github.com/Stalker-moment/AqualifierAPI"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+
+            <a
+              href="https://aqualifier.my.id"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>GASKAN</h3>
+            <p class="project__description">
+              GASKAN adalah Gerbang Akses Pintar dan Kehadiran yang menggunakan teknologi IoT
+              yang di integrasikan dengan sistem RFID sebagai akses masuk siswa. 
+              Sistem ini dapat mengatur akses pintu dan monitoring 
+              kehadiran siswa - siswa SMK SMTI Yogyakarta melalui website. 
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">RaspberryPi</li>
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">NodeJs</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">VueJs</li>
+            </ul>
+
+            <!-- <a
+              href="https://github.com/"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a> -->
+            <a
+              href="https://smart-gate-system.vercel.app"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Chemicfest#8 Website</h3>
+            <p class="project__description">
+              Chemicfest#8 adalah sebuah event konser yang diadakan oleh SMK SMTI Yogyakarta. 
+              Website ini dibuat untuk mempromosikan event tersebut serta digunakan untuk
+              melakukan pembayaran tiket. Website ini juga dilengkapi dengan livestreaming untuk
+              menonton konser secara online.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">NodeJs</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">VueJs</li>
+            </ul>
+
+            <a
+              href="https://github.com/Stalker-moment/chemicfest8-API"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+
+            <a
+              href="https://github.com/fphaikal/chemicfest-8"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+
+            <a
+              href="https://chemicfest-8.vercel.app/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Music Recognition</h3>
+            <p class="project__description">
+              Music Recognition adalah sebuah website yang dapat mengenali lagu
+              yang sedang diputar. Aplikasi ini menggunakan teknologi AI
+              untuk mengenali lagu yang sedang diputar. Website ini juga
+              dilengkapi dengan fitur pencarian lagi(via Youtube, Spotify, Deezer) dan lirik lagu(On Going).
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">NodeJs</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">ExpressJs</li>
+            </ul>
+
+            <a
+              href="https://music.tierkun.site/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Bounty Generator</h3>
+            <p class="project__description">
+              Bounty Generator adalah sebuah website yang dapat membuat
+              foto yang di edit menyerupai poster buronan yang mirip dari anime One Piece.
+              Website ini hanya digunakan untuk hiburan semata. Foto yang diupload ke website ini
+              tidak akan disimpan. Foto yang diupload akan dijadikan poster dan diberikan harga secara random oleh sistem
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">NodeJs</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">ExpressJs</li>
+            </ul>
+
+            <a
+              href="https://github.com/Stalker-moment/Web-BountyGenerator/"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://bounty.tierkun.online/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Instagram Downloader</h3>
+            <p class="project__description">
+              Instagram Downloader adalah sebuah website yang dapat mendownload
+              foto dan video dari instagram. Website ini digunakan untuk para user yang ingin 
+              mendownload postingan, reels, dll menggunakan link dari instagram.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">NodeJs</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">ExpressJs</li>
+            </ul>
+
+            <a
+              href="https://github.com/Stalker-moment/web-ig-downloader"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://ig.tierkun.online/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+        <div class="about__contact center" style="  justify-content: center; align-items: center">
+          <a href="https://github.com/Stalker-moment?tab=repositories">
+            <span class="btn btn--outline">Other Project</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">Ejs</li>
+          <li class="skills__list-item btn btn--plain">Database</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">TypeScript</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">OpenCV</li>
+          <li class="skills__list-item btn btn--plain">Jupyter</li>
+          <li class="skills__list-item btn btn--plain">Yolo</li>
+          <li class="skills__list-item btn btn--plain">Tensorflow</li>
+          <li class="skills__list-item btn btn--plain">C++</li>
+          <li class="skills__list-item btn btn--plain">Arduino</li>
+          <li class="skills__list-item btn btn--plain">RaspberryPi</li>
+          <li class="skills__list-item btn btn--plain">PLC & HMI</li>
+          <li class="skills__list-item btn btn--plain">CAD/CAM</li>
+          <li class="skills__list-item btn btn--plain">Electrical</li>
+          <li class="skills__list-item btn btn--plain">Pneumatic</li>
+          <li class="skills__list-item btn btn--plain">Hydrolic</li>
+          <li class="skills__list-item btn btn--plain">Robotics</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+<section class="section contact center" id="contact">
+  <h2 class="section__title">Contact</h2>
+  <div class="contact-buttons">
+    <a href="mailto:sinyo5666@gmail.com">
+      <span class="btn btn--outline">Email</span>
+    </a>
+
+    <a href="https://wa.me/6282134580805">
+      <span class="btn btn--outline">WhatsApp</span>
+    </a>
+
+    <a href="https://instagram.com/tierkunn_">
+      <span class="btn btn--outline">Instagram</span>
+    </a>
+
+    <a href="https://t.me/@tierkundev">
+      <span class="btn btn--outline">Telegram</span>
+    </a>
+
+    <a href="https://twitter.com/Tierkun_dev">
+      <span class="btn btn--outline">X / Twitter</span>
+    </a>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/Stalker-moment/portofolio"
+        class="link footer__link"
+      >
+        Created By Tier Sinyo
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
