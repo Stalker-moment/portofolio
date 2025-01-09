@@ -4,4 +4,4 @@ A portfolio template built with HTML, CSS, and JavaScript.
 
 ## Preview
 
-[Live Demo](https://tierkun.site)
+[Live Demo](https://tierkun.my.id)
